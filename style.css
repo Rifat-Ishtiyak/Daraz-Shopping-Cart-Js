@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+dl, ol, ul{
+    margin-bottom: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+}
+
+.orange-text{
+    color: #F85606;
+}
+
+.light-bg{
+    background-color: #F5F5F5;
+}
+
+.nav-1{
+    text-decoration: none;
+    font-size: 9pt;
+}
+
+.nav-1 li{
+    list-style: none;
+}
+
+.nav-1 li a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+.nav-1 li a:hover{
+    text-decoration: underline;
+    color: #F85606;
+}
+
+
+.nav-2 li{
+    list-style: none;
+}
+
+.nav-2 li a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+.nav-2 li a:hover{
+    color: rgb(32, 32, 32);
+}
+
+.search-bar{
+    width: 720px;
+    outline: none;
+    border: none;
+}
+
+.search-button{
+   border: none;
+   color: white;
+   background-color: #F85606;
+}
+
+.fa-cart-shopping{
+    font-size: 25px;
+}
+
+.dropdown{
+    display: none;
+    background-color: white;
+    padding: 0;
+    border: 1px solid rgb(196, 196, 196);
+}
+
+.dropdown a li{
+    list-style: none;
+    font-size: 10pt;
+}
+
+.dropdown a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+.dropdown li:hover{
+    background-color: #F5F5F5;
+}
+
+.categories ul li{
+    list-style: none;
+    width: 200px;
+}
+.categories > ul > li:hover > ul{
+    display: block;
+    position: absolute;
+    left: 7.8%;
+}
+
+.categories > ul > li:hover > .fa-chevron-down{
+    transform: rotate(180deg);
+}
+
+.delivery-box{
+    width: 300px;
+    border: 1px solid rgb(196, 196, 196);
+    
+}
+
+.delivery-text{
+    font-size: 10pt;
+}
+
+.d-text-details{
+    color: rgb(184, 184, 184);
+    font-size: 9pt;
+}
+
+.promo-field input{
+    width: 70%;
+    border: 1px solid rgb(196, 196, 196);
+    outline: none;
+}
+
+.promo-field input:focus{
+    border: 1px solid #25A5D8;
+}
+
+.promo-field button{
+    color: white;
+    background-color: #25A5D8;
+    border: none;
+    height: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.promo-field button:hover{
+    background-color: #F85606;
+}
+
+.checkout-btn button{
+    background-color: #F85606;
+    border: none;
+    transition: 0.4s;
+}
+
+.checkout-btn button:hover{
+    background-color: #e64c00;
+}
+
+.remove-seletor{
+    font-size: 11pt;
+    color: rgb(116, 116, 116);
+    font-weight: 400;
+}
+
+.remove-seletor .checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+.remove-seletor input:checked{
+    background-color: #F85606;
+    color: #F85606;
+}
+.remove-product{
+    font-size: 11pt;
+    color: rgb(116, 116, 116);
+    font-weight: 400;
+}
+
+.remove-product:hover{
+    color: #F85606;
+    cursor:pointer;
+}
+
